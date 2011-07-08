@@ -1,0 +1,36 @@
+body {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+a {
+  color: #fff;
+  font-weight: bold;
+}
+
+#page-wrapper {
+  background-color: #000000;
+}
+
+#header h1#site-name a {
+  display: block;
+
+  width: 760px;
+  height: 200px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  text-indent: -999em;
+
+  background-image: url("../logo.png");
+  background-repeat: no-repeat;
+}
+
+#navigation-secondary {
+  text-align: right;
+}
+
+#content {
+  min-height: 600px;
+}

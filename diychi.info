@@ -1,0 +1,27 @@
+name = DIY CHI
+
+description = Theme for the DIY CHI website.
+
+core = 7.x
+
+engine = phptemplate
+
+regions[header] = Header
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = Right sidebar
+regions[footer] = Footer
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/960.css
+
