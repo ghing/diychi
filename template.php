@@ -10,3 +10,19 @@
  * for your subtheme grows. Please read the README.txt in the /preprocess and /process subfolders
  * for more information on this topic.
  */
+
+/**
+ * Render an address array.
+ *
+ * @param $address 
+ *   An associative array representing the data of an Address Field-stored 
+ *   address.
+ *
+ */
+function _diychi_render_address($address) {
+	$output = "<address>\n";
+	$output .= sprintf("  %s<br />", check_plain($address['thoroughfare']));
+	$output .= sprintf("  %s, %s", check_plain($address['locality']), check_plain($address['administrative_area']));
+	$output .= "</address>\n";
+	return $output;
+}
